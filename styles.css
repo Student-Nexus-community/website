@@ -1230,9 +1230,9 @@ display: none;
 .gallery-item img {
   width: 100%;
   height: auto;
-  max-height: 75vh;
+  max-height: 90vh;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /* Image Caption */
@@ -1242,7 +1242,7 @@ display: none;
   left: 80%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.7);
-  color: #ff0000;
+  color: #ffffff;
   padding: 8px 15px;
   font-size: 1.2rem;
   border-radius: 5px;
