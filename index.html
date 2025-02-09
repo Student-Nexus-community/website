@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Nexus</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="light">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/favicon-32x32.png">
+        <span>Student Nexus</span>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <i data-lucide="menu"></i>
+      </button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#team">Team</a>
+        <a href="#partners">Partners</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="home" class="header">
+    <div class="header-content">
+      <i data-lucide="sparkle" class="sparkle-icon"></i>
+      <h1>Student Nexus
+        <span>Connecting Students, Empowering Futures</span>
+      </h1>
+      <p>Join our vibrant student community to learn, collaborate, and grow with like-minded peers.</p>
+      <a href="#events" class="cta-button">Explore Events</a>
+    </div>
+    <div class="blob-animation">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+  </header>
+
+  <!-- Events -->
+  <section id="events" class="events">
+    <div class="container">
+      <h2>Upcoming Events</h2>
+      <p class="section-desc">Don't miss out on our exciting events designed to enhance your student experience.</p>
+      
+      <div class="events-grid">
+        <!-- Event cards will be inserted here by JavaScript -->
+      </div>
+
+      <h2 class="mt-large">Past Events</h2>
+      <div class="past-events-grid">
+        <!-- Past event cards will be inserted here by JavaScript -->
+      </div>
+      <div class="past-events-grid"></div>
+<button id="show-more-btn" class="show-more-btn">Show More</button>
+
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Event Gallery</h2>
+      <p class="section-desc">Capturing moments that inspire and connect our community.</p>
+      <div class="gallery-wrapper">
+        <div id="gallery-slider" class="gallery-slider">
+          <!-- Images will be added dynamically -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Our Members Say</h2>
+      <p class="section-desc">Hear from students who have found their community with us.</p>
+      <div class="testimonials-grid">
+        <!-- Testimonial cards will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Count -->
+  <section class="community-count">
+    <div class="container">
+      <h2>Our Growing Community</h2>
+      <div class="count-grid">
+        <div class="count-card">
+          <i data-lucide="users"></i>
+          <div class="count" data-target="5000">0</div>
+          <div class="count-label">Active Members</div>
+        </div>
+        <div class="count-card">
+          <i data-lucide="calendar"></i>
+          <div class="count" data-target="150">0</div>
+          <div class="count-label">Events Organized</div>
+        </div>
+        <div class="count-card">
+          <i data-lucide="book-open"></i>
+          <div class="count" data-target="300">0</div>
+          <div class="count-label">Learning Resources</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="team">
+    <div class="container">
+      <h2>Meet Our Team</h2>
+      <p class="section-desc">The passionate individuals behind Student Nexus.</p>
+      
+      <h3>Founders</h3>
+      <div class="founders-grid">
+        <!-- Founder cards will be inserted here by JavaScript -->
+      </div>
+
+      <h3>Core Team</h3>
+      <div class="team-section">
+        <div class="team-grid-scroll-wrapper">
+          <div class="core-team-grid"></div>
+          <div class="team-grid">
+            <!-- Team Cards will be rendered here dynamically -->
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section id="partners" class="partners">
+    <div class="container">
+      <h2>Our Partners</h2>
+      <p class="section-desc">Proud to work with organizations that share our vision.</p>
+      <div class="partners-grid">
+        <!-- Partner logos will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <p class="section-desc">Find answers to common questions about Student Nexus.</p>
+      <div class="faq-list">
+        <!-- FAQ items will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <div class="footer-logo">
+            <i data-lucide="graduation-cap"></i>
+            <span>Student Nexus</span>
+          </div>
+          <p>Connecting students, empowering futures. Join our vibrant community today!</p>
+          <div class="social-links">
+            <a href="#"><i data-lucide="facebook"></i></a>
+            <a href="#"><i data-lucide="twitter"></i></a>
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="#"><i data-lucide="linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: info@studentnexus.com</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>Address: 123 Campus Drive</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Student Nexus. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
