@@ -1255,12 +1255,12 @@ display: none;
   }
 
   .gallery-item p {
-    font-size: 1rem;
-    padding: 6px 12px;
+    font-size: 0.5rem;
+    padding: 2px 5px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 4px) {
   .gallery-item img {
     max-height: 50vh;
   }
