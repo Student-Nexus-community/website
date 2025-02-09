@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
       name: "Alex Johnson",
       role: "Computer Science Major",
       quote: "Joining this community has been transformative. The support and resources available have accelerated my learning journey.",
-      avatar: "/placeholder.svg?height=80&width=80"
+      avatar: "images/HARISH.REDDY.jpg"
     },
     {
       name: "Samantha Lee",
@@ -203,13 +203,13 @@ document.addEventListener('DOMContentLoaded', function() {
       name: "Michael Chen",
       role: "Business Administration",
       quote: "The networking opportunities are unparalleled. I've made connections that I'm sure will last throughout my career.",
-      avatar: "images/IMG_4511 (1) (1).jpg"
+      avatar: "images/HARISH.REDDY.jpg"
     },
     {
       name: "Emily Rodriguez",
       role: "Environmental Science",
       quote: "The passion for sustainability in this community is inspiring. I've learned so much about making a real impact.",
-      avatar: "/placeholder.svg?height=80&width=80"
+      avatar: "images/HARISH.REDDY.jpg"
     }
   ];
 
@@ -274,10 +274,10 @@ document.addEventListener('DOMContentLoaded', function() {
 const foundersGrid = document.querySelector('.founders-grid');
 const founders = [
   {
-    name: 'Jane Doe',
+    name: 'Harish Reddy',
     role: 'Founder & CEO',
     bio: 'Jane is a visionary leader with over a decade of experience in student engagement and leadership programs.',
-    image: 'images/IMG_4511 (1) (1).jpg',
+    image: 'images/HARISH.REDDY.jpg',
     linked: 'https://www.linkedin.com/in/janedoe',
     email: 'mailto:janedoe@example.com',
   },
@@ -335,14 +335,14 @@ const coreTeam = [
   {
     name: "Charlie Brown",
     role: "Operations Manager",
-    image: "https://via.placeholder.com/180",
+    image: "images/IMG_4511 (1) (1).jpg",
     linkedin: "https://www.linkedin.com/in/charliebrown",
     email: "mailto:charlie@example.com",
   },
   {
     name: "Diana Ross",
     role: "Finance Lead",
-    image: "https://via.placeholder.com/180",
+    image: "images/IMG_4511 (1) (1).jpg",
     linkedin: "https://www.linkedin.com/in/dianaross",
     email: "mailto:diana@example.com",
   }
@@ -433,14 +433,14 @@ faqList.addEventListener('click', event => {
 //patnership
 document.addEventListener('DOMContentLoaded', function () {
   const partners = [
-      { name: 'Partner 1', logo: 'https://via.placeholder.com/160x80?text=1' },
-      { name: 'Partner 2', logo: 'https://via.placeholder.com/160x80?text=2' },
-      { name: 'Partner 3', logo: 'https://via.placeholder.com/160x80?text=3' },
-      { name: 'Partner 4', logo: 'https://via.placeholder.com/160x80?text=4' },
-      { name: 'Partner 5', logo: 'https://via.placeholder.com/160x80?text=5' },
-      { name: 'Partner 6', logo: 'https://via.placeholder.com/160x80?text=6' },
-      { name: 'Partner 7', logo: 'https://via.placeholder.com/160x80?text=7' },
-      { name: 'Partner 8', logo: 'https://via.placeholder.com/160x80?text=8' }
+      { name: 'Partner 1', logo: 'images/Untitled design (5).png' },
+      { name: 'Partner 2', logo: 'images/Untitled design (5).png' },
+      { name: 'Partner 3', logo: 'images/Untitled design (5).png' },
+      { name: 'Partner 4', logo: 'images/Untitled design (5).png' },
+      { name: 'Partner 5', logo: 'images/Untitled design (5).png' },
+      { name: 'Partner 6', logo: 'images/Untitled design (5).png' },
+      { name: 'Partner 7', logo: 'images/Untitled design (5).png' },
+      { name: 'Partner 8', logo: 'images/favicon-32x32.png' }
   ];
 
   const partnersContainer = document.querySelector('.partners-container');
